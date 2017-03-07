@@ -1,0 +1,33 @@
+{
+  "name": "tasklist-stream",
+  "version": "0.1.0",
+  "description": "Same as tasklist but with a streaming interface.",
+  "main": "index.js",
+  "dependencies": {
+    "csv": "^1.1.1",
+    "sec": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "standard": "^9.0.0"
+  },
+  "scripts": {
+    "test": "standard --fix && ava test/test-*.js --verbose"
+  },
+  "keywords": [
+    "tasklist",
+    "task",
+    "win",
+    "stream"
+  ],
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/tasklist-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/tasklist-stream/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/tasklist-stream"
+}
