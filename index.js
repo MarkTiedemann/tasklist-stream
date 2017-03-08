@@ -6,7 +6,7 @@ const defaultArgs = ['/fo', 'csv', '/nh']
 const verboseArgs = defaultArgs.concat(['/v'])
 
 const applyFilters = (args, filters) => []
-  .concat.apply(args, filters.map(fi => ['/fi', `${fi}`]))
+  .concat.apply(args, filters.map(filter => ['/fi', filter]))
 
 const defaultColumns = ['imageName', 'pid', 'sessionName', 'sessionNumber', 'memUsage']
 const verboseColumns = defaultColumns.concat(['status', 'username', 'cpuTime', 'windowTitle'])

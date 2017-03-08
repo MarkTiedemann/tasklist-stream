@@ -1,5 +1,6 @@
 const tasklist = require('../')
 
+// get the title of the currently selected Chrome tab
 tasklist({
   verbose: true,
   filters: ['status eq running', 'imagename eq chrome.exe']

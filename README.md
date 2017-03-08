@@ -27,6 +27,15 @@ tasklist()
        memUsage: 8884224 } */
 ```
 
+## Examples
+
+- [get all tasks that have run for more than a minute](https://github.com/MarkTiedemann/tasklist-stream/blob/master/examples/cpu-time.js)
+- [get the title of the currently selected Chrome tab](https://github.com/MarkTiedemann/tasklist-stream/blob/master/examples/chrome-tab.js)
+
+## API
+
+Documentation coming soon.
+
 ## License
 
 [WTFPL](http://www.wtfpl.net/) – Do What the F*ck You Want to Public License.
