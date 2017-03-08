@@ -1,6 +1,6 @@
 {
   "name": "tasklist-stream",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Same as tasklist but with a streaming interface.",
   "main": "index.js",
   "dependencies": {
